@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Cambié el idioma a "es" para español -->
+<head>
+    <meta charset="UTF-8"> <!-- Asegura que los acentos y caracteres especiales se vean bien -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para que sea responsive -->
+    <title>Mi Página web con imagen</title>
+    <link rel="stylesheet" href="style.css"> <!-- Esto debe ir dentro del <head> -->
+</head>
+<body>
+
+    <header>
+         <div class="logo">
+            <a href="index.html"><img src="img/The-Sopranos-Logo.png" alt="Logo" /></a>
+        </div>
+        <!-- <img src="img/The-Sopranos-Logo.png" alt="Imagen de los Sopranos" width="300"> -->
+        
+        <nav>   
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#">Personajes</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <!-- Imagen adicional comentada porque la ruta no es válida -->
+        <!-- <img src="ruta/a/tu/imagen.jpg" alt="Una descripción clara de la imagen" width="500"> -->
+        
+         <section class="back" id="back">
+        <div class="back-image"></div>
+        <div class="back-text">
+            <p><b>Tony Soprano</b>, jefe de una familia mafiosa en Nueva Jersey, intenta equilibrar las demandas de su vida criminal con los desafíos de su vida familiar. Atrapado entre las tensiones del negocio y los conflictos personales, comienza a asistir a terapia tras sufrir ataques de ansiedad.
+                    A medida que lucha por mantener el control, su mundo se vuelve cada vez más peligroso y complejo.
+                     
+            </p>
+        </div>
+    </section>
+
+        <section class="Sinopsis">
+            
+            <div class="parrafo">
+                </div>
+            </section>
+            <section>
+                <h2>Gallery</h2>
+                <article class="galeria"
+                id="galeria">
+                    <div class="gallery-container">
+                        <div class="gallery-item">
+                            <img src="img/familia.png" alt="Imagen 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/cena.png" alt="Imagen 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tioJunior.png" alt="Imagen 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/chrisyadriana.PNG" alt="Imagen 1" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/draMelfi.PNG" alt="Imagen 2" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/chrisnieve.PNG" alt="Imagen 3" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/toni traje.PNG" alt="Imagen 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/silvio.PNG" alt="Imagen 5" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/paulie.PNG" alt="Imagen 6" class="gallery-image">
+                        </div>
+                    
+                        <div class="gallery-item">
+                            <img src="img/abuelos.PNG" alt="Imagen 4" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tonymeadow.PNG" alt="Imagen 5" class="gallery-image">
+                        </div>
+                        <div class="gallery-item">
+                            <img src="img/tonimorfando.PNG" alt="Imagen 6" class="gallery-image">
+                        </div>
+                </article>
+                <section class="personajes">
+                    <div class="personajes-container" id="personajes">
+                        <div class="personajes-item">
+                            <img src="img/CapturaJR.PNG" alt="Imagen 1" class="personajes-image">
+                        </div>
+                             
+                        <div class="personajes-item">
+                            <img src="img/Tony_God_Soprano.webp" alt="Imagen 1" class="personajes-image">
+                            <h3>Tony Soprano</h3>
+                        </div>
+                         <div class="personajes-item">
+                            <img src="img/unclejunior.png" alt="Imagen 1" class="personajes-image">
+                            <h3>Corrado "Junior" Soprano</h3>
+                        </div>
+                        <div class="personajes-item">
+                            <img src="img/draMelfi.PNG" alt="Imagen 1" class="personajes-image">
+                            <h3>Carmela Soprano</h3>
+                        </div>
+                        <div class="personajes-item">
+                            <img src="img/familia.PNG" alt="Imagen 1" class="personajes-image">
+                            <h3>Paulie Gaultieri</h3>
+                        </div>
+                    </div>
+                </section>
+            </section>      
+        
+
+    </main>
+
+    <div id="fullscreen" class="fullscreen">
+    <div id="image-counter" class="image-counter"></div>
+    <span id="close" class="close-btn">&times;</span>
+    <img id="fullscreen-img" class="fullscreen-img" src="" alt="Imagen Maximizada">
+    <span id="prev" class="prev-btn">&#10094;</span>
+    <span id="next" class="next-btn">&#10095;</span>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Mi Página. Todos los derechos reservados.</p>
+        <p><time datetime="2025-09-01">1 de Septiembre de 2025</time></p> <!-- Corregido el atributo datetime -->
+    </footer>
+
+<script src="gallery.js"></script>
+
+
+
+</body>
+</html>
