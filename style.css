@@ -74,6 +74,7 @@ header {
     align-items: center;
     border-bottom: 2px solid #e50914;
     font-family: 'Mobsters';
+    size: 50px;
 }
 
 header .logo img {
@@ -574,6 +575,8 @@ button:hover {
     margin-bottom: 30px;
     border-top: 2px solid #e50914;
     border-bottom: 2px solid #e50914;
+    display: block;
+    max-width: 100%;  margin: 0
 }
 
 #mapa h2 {
