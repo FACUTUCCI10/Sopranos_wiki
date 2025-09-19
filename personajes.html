@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - The Sopranos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="sopranoWeb.html"><img src="img/The-Sopranos-Logo.png" alt="Logo" /></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="sopranoWeb.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="personajes.html">Personajes</a></li>
+      <li><a href="contacto.html" class="active">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="personajes" id="personajes">
+            <h2>Personajes</h2>
+            <div class="personajes-container">
+                <div class="personajes-item"
+                     data-nombre="Tony Soprano"
+                     data-descripcion="Jefe de la familia DiMeo. Lucha entre su rol mafioso y su vida familiar."
+                     data-imagen="img/toni traje.PNG">
+                    <img src="img/toni traje.PNG" alt="Tony Soprano" class="personajes-image">
+                    <h3>Tony Soprano</h3>
+                </div>
+
+                <div class="personajes-item"
+                     data-nombre="Corrado 'Junior' Soprano"
+                     data-descripcion="Tío de Tony, figura clave en la familia con conflictos internos."
+                     data-imagen="img/CapturaJR.PNG">
+                    <img src="img/CapturaJR.PNG" alt="Junior Soprano" class="personajes-image">
+                    <h3>Corrado 'Junior' Soprano</h3>
+                </div>
+
+                <div class="personajes-item"
+                     data-nombre="Carmela Soprano"
+                     data-descripcion="Esposa de Tony"
+                     data-imagen ="img/carmela.png">
+                    <img src="img/carmela.png" alt="Carmela Soprano" class="personajes-image">
+                    <h3>Carmela Soprano</h3>
+                </div>
+
+                <div class="personajes-item"
+                     data-nombre="Meadow Soprano"
+                     data-descripcion="Hija mayor de Tony"
+                     data-imagen="img/meadow.png">
+                    <img src="img/meadow.png" alt="Meadow Soprano" class="personajes-image">
+                    <h3>Meadow Soprano</h3>
+                </div>
+                <div class="personajes-item"
+                     data-nombre="Anthony Soprano jr"
+                     data-descripcion="Hijo menor de Tony"
+                     data-imagen="img/antonyJR.png">
+                    <img src="img/antonyJR.png" alt="Anthony Soprano jr" class="personajes-image">
+                    <h3>Anthony Soprano jr</h3>
+                </div>
+
+                <div class="personajes-item"
+                     data-nombre="Paulie Gaultieri"
+                     data-descripcion="Leal pero impredecible, uno de los soldados más antiguos de Tony."
+                     data-imagen="img/paulie.PNG">
+                    <img src="img/paulie.PNG" alt="Paulie Gaultieri" class="personajes-image">
+                    <h3>Paulie Gaultieri</h3>
+                </div>
+            </div>
+
+        
+        </section> 
+
+             <div class="modal-personaje" id="modal-personaje">
+        <div class="modal-content-personaje">
+            <span class="modal-close-personaje">&times;</span>
+            <img id="modal-img-personaje" src="" alt="Personaje">
+            <h3 id="modal-nombre-personaje"></h3>
+            <p id="modal-descripcion-personaje"></p>
+        </div>
+    </div>
+
+    <!-- Modal fullscreen galería -->
+    <div id="fullscreen" class="fullscreen">
+        <div id="image-counter" class="image-counter"></div>
+        <span id="close" class="close-btn">&times;</span>
+        <img id="fullscreen-img" class="fullscreen-img" src="" alt="Imagen Maximizada">
+        <span id="prev" class="prev-btn">&#10094;</span>
+        <span id="next" class="next-btn">&#10095;</span>
+    </div>
+
+</main>
+<script src="gallery.js"></script>
+<footer>
+  <p>&copy; 2024 Mi Página. Todos los derechos reservados.</p>
+  <p><time datetime="2025-09-01">1 de Septiembre de 2025</time></p>
+</footer>
+
+</body>
+</html>

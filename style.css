@@ -288,10 +288,12 @@ p {
 
 /* Footer */
 footer {
+    size: 20%;
     background-color: #111;
     padding: 15px;
     text-align: center;
     border-top: 2px solid #e50914;
+    margin-top: 45px;
 
 }
 
@@ -472,7 +474,21 @@ button:hover {
     from {transform: scale(0.8);}
     to {transform: scale(1);}
 }
+.trailer {
+    text-align: center;
+    margin: 40px 0;
+    margin-bottom: 25px;
+}
 
+.trailer-video {
+    width: 80%;          /* ocupa el 80% del ancho */
+    max-width: 800px;    /* límite en pantallas grandes */
+    aspect-ratio: 16/9;  /* mantiene proporción */
+    border-radius: 12px;
+    box-shadow: 0 0 25px rgba(229, 9, 20, 0.5);
+    display: block;
+    margin: 0 auto;      /* lo centra */
+}
 
 /* ======================= */
 /* MODAL FULLSCREEN GALERÍA*/
